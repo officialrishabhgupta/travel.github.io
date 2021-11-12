@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRAVEL</title>
+  <link rel="stylesheet" href="travel.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/556344099e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="scroll" class="scroll">
+    <div id="c2content" class="c2content">
+      <div class="travel">PHOTOGRAPHY</div>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <img src="logo.png" alt="">
+          <a href="#scrollspyHeading1">HOME</a>
+          <a href="#scrollspyHeading2">TRAVEL</a>
+          <a href="#scrollspyHeading3">NATURE</a>
+          <a href="#scrollspyHeading4">ABOUT</a>
+        </div>
+      </div>
+      <span onclick="openNav()"><button class="show-nav show-label"><img src="./nav.png" alt=""
+            style="width: 70px;height: 65px;position: relative;"></button></span>
+
+
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+        tabindex="0">
+        <h4 id="scrollspyHeading1">
+          <div class="slideshow-container">
+            <div class="mySlides ">
+              <div class="numbertext">1/4</div>
+              <img src="./badaimambada.jpg" alt="">
+              <div class="text">BADA IMAMBADA</div>
+            </div>
+            <div class="mySlides ">
+              <div class="numbertext">2/4</div>
+              <img src="./badaimambada1.jpg" alt="">
+              <div class="text">BADA IMAMBADA</div>
+            </div>
+            <div class="mySlides ">
+              <div class="numbertext">3/4</div>
+              <img src="./humayuntomb.jpg" alt="">
+              <div class="text">HUMAYUN TOMB</div>
+            </div>
+            <div class="mySlides ">
+              <div class="numbertext">4/4</div>
+              <img src="./riverfront.jpg" alt="">
+              <div class="text">RIVERFRONT</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-arrow-circle-left"></i></a>
+            <a class="next" onclick="plusSlides(1)"><i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </h4>
+        <h4 id="scrollspyHeading2">
+          <div class="section">
+            <h2>TRAVEL</h2>
+            <div class="row">
+              <div class="column">
+                <div id="imgAll">
+                  <img id="myImg" src="./gurdwara.jpg" alt="Gurudwara Bangla Sahib">
+                  <img id="myImg" src="./christmas.jpg" alt="Pacific mall">
+                  <img id="myImg" src="./kedarnathtrek3.jpg" alt="kedarnathtrek">
+                  <img id="myImg" src="./gulabbadi.jpg" alt="Gulabbadi Faizabad">
+                  <img id="myImg" src="./gulabbadi1.jpg" alt="Gulabbadi Faizabad">
+                  <img id="myImg" src="./lotustemple.jpg" alt="Lotus Temple">
+                </div>
+              </div>
+              <div class="column">
+                <div id="imgAll">
+                  <img id="myImg" src="./humayuntomb.jpg" alt="Humayun Tomb">
+                  <img id="myImg" src="badaimambada.jpg" alt="Bada Imambada">
+                  <img id="myImg" src="./badaimambada1.jpg" alt="Bada Imambada">
+                  <img id="myImg" src="./kedarnathtrek2.jpg" alt="KedarnathTrek">
+                  <img id="myImg" src="./kedarnathtrek1.jpg" alt="KedarnathTrek">
+                  <img id="myImg" src="./imambada.jpg" alt="ImamBada">
+                </div>
+              </div>
+              <div class="column">
+                <div id="imgAll">
+                  <img id="myImg" src="./puranaquila.jpg" alt="PuranaQuila">
+                  <img id="myImg" src="./haridwar.jpg" alt="Haridwar">
+                  <img id="myImg" src="./park2.jpg" alt="Park">
+                  <img id="myImg" src="./riverfront1.jpg" alt="Riverfront Lucknow">
+                  <img id="myImg" src="./riverfront.jpg" alt="Riverfront Lucknow">
+                  <img id="myImg" src="./qutubminar.jpg" alt="Qutub Minar">
+                </div>
+              </div>
+              <div class="column">
+                <div class="center">
+                  <div class="column-box">
+                    <img src="./ropeway.jpg" alt="">
+                    <div
+                      style="position: absolute;height: 100%;top: 0;display: flex;justify-content: center;align-items: center;width: 100%;">
+                      <img src="./play.png" alt="" class="play-btn" onclick="playVideo('./ropeway.mp4')">
+                    </div>
+                  </div>
+                  <div class="column-box">
+                    <img src="./winterriding.jpg" alt="">
+                    <div
+                      style="position: absolute;height: 100%;top: 0;display: flex;justify-content: center;align-items: center;width: 100%;">
+                      <img src="./play.png" alt="" class="play-btn" onclick="playVideo('./winterriding.mp4')">
+                    </div>
+                  </div>
+                  <div class="column-box">
+                    <img src="./redfort.jpg" alt="">
+                    <div
+                      style="position: absolute;height: 100%;top: 0;display: flex;justify-content: center;align-items: center;width: 100%;">
+                      <img src="./play.png" alt="" class="play-btn" onclick="playVideo('./redfort.mp4')">
+                    </div>
+                  </div>
+                  <div class="column-box">
+                    <img src="./rumigate.jpg" alt="">
+                    <div
+                      style="position: absolute;height: 100%;top: 0;display: flex;justify-content: center;align-items: center;width: 100%;">
+                      <img src="./play.png" alt="" class="play-btn" onclick="playVideo('./rumigate.mp4')">
+                    </div>
+                  </div>
+                  <div class="column-box"><img src="./charbagh.jpg" alt="">
+                    <div
+                      style="position: absolute;height: 100%;top: 0;display: flex;justify-content: center;align-items: center;width: 100%;">
+                      <img src="./play.png" alt="" class="play-btn" onclick="playVideo('./charbagh.mp4')">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+            </div>
+          </div>
+        </h4>
+        <h4 id="scrollspyHeading3">
+          <div class="section">
+            <h2>NATURE</h2>
+            <div class="row">
+              <div class="column">
+                <img src="./rose.jpg">
+                <img src="./orchids.jpg">
+                <img src="./flower6.jpg">
+                <img src="./flower2.jpg">
+                <img src="./botanicalgarden.jpg">
+                <img src="./flower5.jpg">
+              </div>
+              <div class="column">
+                <img src="./flower1.jpg">
+                <img src="flower3.jpg">
+                <img src="./flower4.jpg">
+                <img src="./flower7.jpg">
+                <img src="./flower9.jpg">
+                <img src="./lodi.jpg">
+              </div>
+              <div class="column">
+                <img src="./lodigarden.jpg">
+                <img src="./park1.jpg">
+                <img src="./park2.jpg">
+                <img src="./park3.jpg">
+                <img src="./riverfront.jpg">
+                <img src="./deer.jpg">
+              </div>
+              <div class="column">
+                <img src="./lodi1.jpeg">
+                <img src="./lodi2.jpeg">
+                <img src="./lodi3.jpeg">
+                <img src="./garden.jpeg">
+                <img src="./ducks.jpeg">
+                <img src="./riverfront1.jpg">
+                <img src="./flower4.jpg">
+              </div>
+            </div>
+          </div>
+        </h4>
+        <h4 id="scrollspyHeading4">
+          <div class="section">
+            <div class="container">
+              <footer>
+                <p>Photographer <br>
+                  #nature | wildlife | landscape | street and travel photographer <br>
+                  #experience the world through the eyes of my website <br>
+                  #live your adventure
+                  <br>
+                  Follow us
+                  <br>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="https://twitter.com/Rishabh48154861" class="fa fa-twitter"></a>
+                  <a href="https://web.telegram.org/z/" class="fa fa-telegram"></a>
+                  <a href="https://www.instagram.com/natu.rehub/" class="fa fa-instagram"></a>
+                  <br>
+                  <hr style="color: azure;">
+                  Copyright &copy; 2021 &nbsp;&nbsp; All Rights Reserved By Rishabh Photography.
+                </p>
+              </footer>
+            </div>
+          </div>
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div class="video-player" id="videoPlayer">
+    <video width="100%" controls autoplay id="myVideo">
+      <source src="" type="video/mp4" class="post-image">
+    </video>
+    <img src="./close.png" class="close-btn" alt="" onclick="stopVideo('')">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="travel.js"></script>
+</body>
+
+</html>
